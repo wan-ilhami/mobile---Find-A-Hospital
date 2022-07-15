@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123384633931",
+    "project_id": "groupproject-272bc",
+    "storage_bucket": "groupproject-272bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123384633931:android:4250892ee74246f3c50bce",
+        "android_client_info": {
+          "package_name": "com.example.findahospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123384633931-p87j167s56aiorgvobg0m32otocpiaqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6rtLpePSLOFDxPZmTcS1gB3xBSbffCd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123384633931-p87j167s56aiorgvobg0m32otocpiaqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
