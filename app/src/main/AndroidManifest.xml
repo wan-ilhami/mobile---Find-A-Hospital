@@ -29,7 +29,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDZNlcCl9rwAJYvSbRWdUAOwmDnJ8g2zKA" />
+            android:value="" />
 
         <activity
             android:name=".nearbyHospital"
