@@ -107,7 +107,7 @@
         android:layout_width="334dp"
         android:layout_height="60dp"
         android:autoLink="web"
-        android:text="Click the link here to watch our get code: https://www.github.com"
+        android:text="Click the link here to watch our get code: https://github.com/wan-ilhami/mobile---Find-A-Hospital"
         app:layout_constraintBottom_toTopOf="@+id/btnhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.714"
