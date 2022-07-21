@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:#E3AFBC;
+}
+
+.h1 {
+
+	color: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color:white;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #9A1750;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+.button {
+  background-color: #EE4C7C;
+}
+
+.button2 {
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #EE4C7C;}
+.button2 {border-radius: 12px;}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+    <h1>About Us 😍</h1>
+
+</div>
+
+
+    <h1><center>Our Team Members 👦🏻👧🏻</center> </h1>
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="img/zulaikha.png" alt="" style="width:50%" class= "center">
+            <div class="container">
+                <h2><center>Zulaikha Hanan 👩‍💻</center></h2>
+                <p class="title"><center>Developer</center></p>
+                <p><center>2021149273</center></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="img/yasmin.png" alt="" style="width:50%" class= "center">
+            <div class="container">
+                <h2><center>Yasmin Athira 👩‍💻</center></h2>
+                <p class="title"><center>Developer</center></p>
+                <p><center>2021149635</center></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="img/wan.png" alt="" style="width:50%" class= "center">
+            <div class="container">
+                <h2><center>Wan Ilhami 🧑‍💻</center></h2>
+                <p class="title"><center> Developer</center></p>
+                <p><center>2021102469</center></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="img/muhammad.png" alt="" style="width:50%" class= "center">
+            <div class="container">
+                <h2><center>Muhammad 🧑‍💻&nbsp;</center></h2>
+                <p class="title"><center> Developer</center></p>
+                <p><center>2021340877</center></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="about-section">
+    <p>We are From CS2515A</p>
+    <p>&copy; Find A Hospital 2022 &copy;</p>
+    <a href='https://github.com/wan-ilhami/mobile---Find-A-Hospital'>
+        <button class="button button2">Github Coding</button>
+</div>
+
+
+</body>
+</html>
